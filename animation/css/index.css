@@ -1,0 +1,22 @@
+#clock {
+    margin: auto;
+    width:1px;
+    height:500px;
+    background:red;
+    -webkit-animation : mymove 12s infinite;
+    -webkit-animation-direction:alternate;
+}
+@-webkit-keyframes mymove 
+    {
+        0% {-webkit-transform:rotate(-30deg);-webkit-transform-origin:50% top;}
+        100% {-webkit-transform:rotate(30deg);-webkit-transform-origin:50% top;}
+    }
+#ball{
+    width:40px;
+    height:40px;
+    background:#ccc;
+    top: 500px;
+    position: relative;
+    right: 20px;
+    border-radius: 20px;
+}
